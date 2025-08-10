@@ -1,0 +1,264 @@
+body {
+    background-color: black;
+     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgrnd{
+    
+    background-image: url('../media/image/hahh.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed; /* Stay in place */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto;
+}
+#mainscreen{
+   left: 0;
+  top: 0;
+  padding: 2%;;
+}
+/* modal */
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  padding-top: 0px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(202, 164, 38); /* Fallback color */
+  background-color: rgb(18, 226, 98); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+ position: fixed;               /* Stays in place even when scrolling */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  z-index: 1111;                 /* Ensures it's above everything */
+  transition: transform 0.3s ease;
+ border: solid black 2px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* modal */
+
+#container{
+
+  
+  width: auto;
+  height: 30%;
+  padding: 10px;
+  overflow: hidden;
+}
+
+    #box {
+      width: 293px;
+      height: 171px;
+       background-image: url('../media/image/letrtsl.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        overflow: auto;
+      background-color: red;
+      position: absolute;
+      top: 25px;
+      margin-left: 200px;
+      /* z-index: 1002; */
+      
+    }
+
+#boxtwo {
+    background-image: url('../media/image/updwn.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: auto;
+  position: absolute;
+  top: 50px;
+  left: 30%;
+  width: 500px;
+  height: 500px;
+  background-color: crimson;
+}
+#boxthree {
+  background-image: url('../media/image/leftgin.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: auto;
+  width: 200px;
+  height: 200px;
+  margin-left: 100px;
+  margin-top: 50px;
+  background-color: crimson;
+  transform: scale(1);
+  transition: transform 0.1s ease;
+}
+#boxfour {
+  position: fixed;               /* Stays in place even when scrolling */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  z-index: 1000;                 /* Ensures it's above everything */
+  transition: transform 0.3s ease;
+}
+ #boxfour:hover {
+      opacity: 0;
+    
+    } 
+    #boxfour_content {
+  position: fixed;               /* Stays in place even when scrolling */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px;
+  z-index: 1000;                 /* Ensures it's above everything */
+  transition: transform 0.3s ease;
+}
+ #boxfour_content:hover {
+      opacity: 0;
+    
+    } 
+#boxfour_mini {
+  position: fixed;               /* Stays in place even when scrolling */
+  top: 10%;
+  left: 80%;
+  transform: translate(-10%, -35%);
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  z-index: 1032;                 /* Ensures it's above everything */
+  transition: transform 0.3s ease;
+  overflow: auto;
+}
+
+#boxfive {
+  position: fixed;               /* Stays in place even when scrolling */
+  top: 85%;
+  left: 88%;
+  transform: translate(-50%, -50%);
+
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  z-index: 1000;                 /* Ensures it's above everything */
+  transition: transform 0.3s ease;
+}
+
+ #boxsix {
+       width: 500px; 
+      /* height: 650px; */
+      
+      position: fixed;               /* Stays in place even when scrolling */
+      top: 10%;
+      left: 32%;
+      transform: translate(-50%, -50%);
+      
+      /* background-color: rgb(253, 253, 253); */
+      /* padding: 10px; */
+                       /* Ensures it's above everything */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.3s ease;
+      z-index: 2;
+      transform: scale(1);
+      background-image: url('../media/image/sixoo.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      overflow: auto;
+    }
+
+    /* #boxsix:hover {
+      opacity: 0;
+      z-index: 1022;
+        
+    } */
+
+ #boxseven {
+       width: 750px; 
+      /* height: 650px; */
+      
+      position: fixed;               /* Stays in place even when scrolling */
+      top: 2%;
+      left: 22%;
+      transform: translate(-50%, -50%);
+      
+      /* background-color: rgb(253, 253, 253); */
+      /* padding: 10px; */
+                       /* Ensures it's above everything */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.3s ease;
+      transform: scale(1);
+      background-image: url('../media/image/bacjf.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      overflow: auto;
+    }
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #120870;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #455aa0;
+}
+
+.divbox {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
